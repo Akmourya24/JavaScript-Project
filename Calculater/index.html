@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="part">
+            <div class="part1">
+                <div class="display">
+                    <div class="firstline">
+                        <div id="firstvalue"></div>
+                        <div id="valueop"></div>
+                        <div id="calculate"></div>
+                    </div>
+                    <div id="value">0</div>
+                </div>
+            </div>
+            <div class="part2">
+                <div id="numbers">
+                    <div class="event " id="opration ">
+                        <div class="allClear key" onclick="deletValue()"> C</div>
+                        <div class="Clear key"> c</div>
+                        <div class="allClear key" id='reminder'>%</div>
+                        <div class="perfrom key" id="divison">/</div>
+
+                    </div>
+                    <div class="Number">
+                        <div class="line1 event">
+                            <div class="  key" id="num7" onclick="displayValue('num7')">7</div>
+                            <div class="  key" id="num8" onclick="displayValue('num8')">8</div>
+                            <div class="  key" id="num9" onclick="displayValue('num9')">9</div>
+                            <div class="perfrom key" id="multiple">*</div>
+                        </div>
+                        <div class="line2 event">
+                            <div class="  key" id="num4" onclick="displayValue('num4')">4</div>
+                            <div class="  key" id="num5" onclick="displayValue('num5')">5</div>
+                            <div class="  key" id="num6" onclick="displayValue('num6')">6</div>
+                            <div class="perfrom key" id="minus">-</div>
+                        </div>
+                        <div class="line3 event">
+                            <div class="  key" id="num1" onclick="displayValue('num1')">1</div>
+                            <div class="  key" id="num2" onclick="displayValue('num2')">2</div>
+                            <div class="  key" id="num3" onclick="displayValue('num3')">3</div>
+                            <div class="perfrom key" id="plus">+</div>
+                        </div>
+
+                    </div>
+                    <div class="dot event">
+                        <div class=" key" id="zero00" onclick="displayValue('zero00')">00</div>
+                        <div class=" key" id="zero0" onclick="displayValue('zero0')">0</div>
+                        <div class=" key" id="zero." onclick="displayValue('zero.')">.</div>
+                        <div class="perfrom key" id="equal">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
