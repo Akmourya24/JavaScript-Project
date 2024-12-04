@@ -2,7 +2,7 @@ let num = 0
 let val;
 displayData = async () => {
 
-  let url = `https://quizapi.io/api/v1/questions?apiKey=OFmzW8HX7zbGu2cqKiT20M56y6jhUBX1UfLCALj6&${limit = 3}`
+  let url = `https://quizapi.io/api/v1/questions?apiKey=OFmzW8HX7zbGu2cqKiT20M56y6jhUBX1UfLCALj6&${limit = 20}`
   let response = await fetch(url)
   let data = await response.json()
   console.log(data)
