@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: blueviolet;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.app {
+    width: 80vw;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 25px;
+    
+}
+.category{
+    padding: 10px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+.difficulty{
+     margin-top: -35px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.row {
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+    margin-left: 0px;
+    padding: 15px;
+  
+}
+
+.value {
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.option {
+    width: 20px;
+    height: 20px;
+
+}
+#showAnswer{
+    display: none;
+
+}
+#yourAnswer{
+    margin-top: 25px; 
+}
+#CorrectAnswer{
+    margin-top: 25px;
+    
+}
+
+#btn {
+    width: 50%;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blueviolet;
+   margin-left: 250px;
+   cursor: pointer;
+}
+#next{
+    width: 50%;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blueviolet;
+   margin-left: 250px;
+   cursor: pointer;
+   margin-bottom: 20px;
+} 
+#answer{
+    color: rgb(0, 17, 255);
+    font-weight: 600;
+    
+}

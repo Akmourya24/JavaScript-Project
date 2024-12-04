@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="app">
+            <h2> <span id="number">1</span>.<span id="Q">this is first Question ? </span></h2>
+            <div class="category">Category - <span id="langunge"> JavaScript </span></div>
+            <div class="difficulty">Difficulty level - <span id="level"> Esay</span></div>
+            <div class="row">
+                <div class="value">
+                    <input type="radio" class="option" id="option1" name="option" >
+                     <label id="a">option 1</label>
+                </div>
+                <div class="value">
+                    <input type="radio" class="option" id="option2" name="option">
+                    <label id="b"> option 2</label>
+                </div>
+                <div class="value">
+                    <input type="radio" class="option" id="option3" name="option">
+                    <label id="c"> option 3</label>
+                </div>
+                <div class="value">
+                    <input type="radio" class="option" id="option4" name="option">
+                    <label id="d"> option 4</label>
+                </div>
+                <div id="showAnswer">
+                    <div id="yourAnswer">Your Answer - <span id="selectAnswer"></span></div>
+                    <div id="CorrectAnswer"> Correct Answer  - <span id="answer"> </span></div>
+                </div>
+            </div>
+                <button id="btn" onclick=" yourAnswer()"> Submit</button>
+                <button id="next" onclick="unchecked ()"> Next</button>
+            </div>
+            
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
